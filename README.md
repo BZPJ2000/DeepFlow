@@ -58,10 +58,9 @@ DeepFlow/
 
 ## 📖 文档
 
-- [架构设计](ARCHITECTURE_DESIGN.md)
-- [实现计划](IMPLEMENTATION_PLAN.md)
-- [快速开始指南](QUICK_START_GUIDE.md)
-- [维护指南](MAINTENANCE_GUIDE.md)
+- [用户指南](docs/USER_GUIDE.md) - 完整的使用教程
+- [开发者指南](docs/DEVELOPER_GUIDE.md) - 架构设计和开发规范
+- [项目完成总结](PROJECT_COMPLETION_SUMMARY.md) - 重构完成情况
 
 ---
 

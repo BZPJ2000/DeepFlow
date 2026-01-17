@@ -5,7 +5,8 @@
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(tree:*)",
-      "Bash(python tests/test_core.py:*)"
+      "Bash(python tests/test_core.py:*)",
+      "Bash(ls:*)"
     ]
   }
 }
