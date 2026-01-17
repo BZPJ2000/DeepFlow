@@ -1,0 +1,41 @@
+# DeepFlow 默认配置
+
+# 应用配置
+app:
+  name: "DeepFlow"
+  version: "2.0.0"
+  debug: false
+
+# 路径配置
+paths:
+  library: "library"
+  data: "data"
+  outputs: "outputs"
+  cache: ".deepflow_cache.json"
+
+# 组件发现配置
+discovery:
+  enabled: true
+  cache_enabled: true
+  scan_on_startup: true
+  excluded_dirs:
+    - "__pycache__"
+    - ".git"
+    - "tests"
+
+# 训练默认配置
+training:
+  default_epochs: 10
+  default_batch_size: 32
+  default_device: "cuda"
+  checkpoint_interval: 5
+  early_stopping:
+    enabled: true
+    patience: 10
+    min_delta: 0.001
+
+# UI 配置
+ui:
+  theme: "light"
+  page_icon: "🚀"
+  layout: "wide"

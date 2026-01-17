@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Project specific
+outputs/
+data/raw/
+data/processed/
+*.h5
+*.pth
+*.ckpt
+*.pkl
+
+# Temporary
+tmp/
+.trae/
+try/
+cached_projects/
+
+# Logs
+*.log
+logs/
+training_logs/
+
+# Models
+saved_models/
+
+# Cache
+.deepflow_cache.json
+
+# Environment
+.env
+.env.local
